@@ -1,5 +1,5 @@
 import { start } from "workflow/api";
-import { handleUserSignup } from "../../../../workflows/user-signup";
+import { handleUserSignup } from "../../../lib/workflows/user-signup";
 import { json, type RequestHandler } from "@sveltejs/kit";
 export const POST: RequestHandler = async ({
   request,
